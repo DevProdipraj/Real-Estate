@@ -32,16 +32,16 @@ const Projects = () => {
       </div>
       <div className="">
         <Slider {...settings}>
-          <div className=" bg-gray-200 h-[40rem]">
+          <div className=" bg-gray-200 h-[25rem] md:h-[40rem]">
             <div className="flex justify-evenly">
-              <div className="w-1/2 ">
+              <div className="width-full md:w-1/2 ">
                 <img
-                  className="w-full h-[40rem] "
+                  className="w-full h-[25rem] md:h-[40rem] text-center "
                   src={Project1}
                   alt="Project Image"
                 />
               </div>
-              <div className="w-1/2 p-10">
+              <div className="hidden md:block md:w-1/2 p-10">
                 <div className=" ">
                   <h1 className="text-4xl font-bold">Sta Verde</h1>
                   <h3 className="text-md py-1">$50,000 | San Francisco</h3>
@@ -58,7 +58,85 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className=" bg-gray-200 h-[40rem]">
+          <div className=" bg-gray-200 h-[25rem] md:h-[40rem]">
+            <div className="flex justify-evenly">
+              <div className="width-full md:w-1/2 ">
+                <img
+                  className="w-full h-[25rem] md:h-[40rem] text-center "
+                  src={Project1}
+                  alt="Project Image"
+                />
+              </div>
+              <div className="hidden md:block md:w-1/2 p-10">
+                <div className=" ">
+                  <h1 className="text-4xl font-bold">Sta Verde</h1>
+                  <h3 className="text-md py-1">$50,000 | San Francisco</h3>
+                  <p className="text-base py-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                    distinctio at odit ducimus, incidunt obcaecati illum labore?
+                    Voluptatum, reprehenderit aliquid quibusdam mollitia animi
+                    numquam odit, voluptates sed, aperiam rem corrupti?
+                  </p>
+                  <button className="bg-blue-500 px-8 py-1.5 text-white rounded cursor-pointer hover:bg-blue-700 transition-colors duration-500 ease-in-out">
+                    Learn More
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className=" bg-gray-200 h-[25rem] md:h-[40rem]">
+            <div className="flex justify-evenly">
+              <div className="width-full md:w-1/2 ">
+                <img
+                  className="w-full h-[25rem] md:h-[40rem] text-center "
+                  src={Project1}
+                  alt="Project Image"
+                />
+              </div>
+              <div className="hidden md:block md:w-1/2 p-10">
+                <div className=" ">
+                  <h1 className="text-4xl font-bold">Sta Verde</h1>
+                  <h3 className="text-md py-1">$50,000 | San Francisco</h3>
+                  <p className="text-base py-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                    distinctio at odit ducimus, incidunt obcaecati illum labore?
+                    Voluptatum, reprehenderit aliquid quibusdam mollitia animi
+                    numquam odit, voluptates sed, aperiam rem corrupti?
+                  </p>
+                  <button className="bg-blue-500 px-8 py-1.5 text-white rounded cursor-pointer hover:bg-blue-700 transition-colors duration-500 ease-in-out">
+                    Learn More
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className=" bg-gray-200 h-[25rem] md:h-[40rem]">
+            <div className="flex justify-evenly">
+              <div className="width-full md:w-1/2 ">
+                <img
+                  className="w-full h-[25rem] md:h-[40rem] text-center "
+                  src={Project1}
+                  alt="Project Image"
+                />
+              </div>
+              <div className="hidden md:block md:w-1/2 p-10">
+                <div className=" ">
+                  <h1 className="text-4xl font-bold">Sta Verde</h1>
+                  <h3 className="text-md py-1">$50,000 | San Francisco</h3>
+                  <p className="text-base py-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                    distinctio at odit ducimus, incidunt obcaecati illum labore?
+                    Voluptatum, reprehenderit aliquid quibusdam mollitia animi
+                    numquam odit, voluptates sed, aperiam rem corrupti?
+                  </p>
+                  <button className="bg-blue-500 px-8 py-1.5 text-white rounded cursor-pointer hover:bg-blue-700 transition-colors duration-500 ease-in-out">
+                    Learn More
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* <div className=" bg-gray-200 h-[40rem]">
             <div className="flex justify-evenly">
               <div className="w-1/2 ">
                 <img
@@ -191,7 +269,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </Slider>
       </div>
     </div>

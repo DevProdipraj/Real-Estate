@@ -18,7 +18,7 @@ const Testimonials = () => {
         </p>
       </div>
       <div className="flex  flex-wrap lg:flex-row items-center justify-center lg:gap-x-6 lg:px-8">
-        <div className="w-full max-w-[360px] shadow-xl px-6 rounded-xl text-center cursor-pointer  border border-gray-200 py-12 my-5 hover:shadow-2xl transition-all duration-300">
+        <div className=" w-[460]  md:max-w-[360px] shadow-xl px-6 rounded-xl text-center cursor-pointer  border border-gray-200 py-12 my-5 hover:shadow-2xl transition-all duration-300">
           <img className=" mx-auto" src={customerImage1} alt="CustomerImage" />
           <h2 className="pt-2 pb-0.5 text-xl font-semibold">Donald Jackman</h2>
           <h4 className="text-gray-500 text-sm">Marketing Manager</h4>
@@ -35,7 +35,7 @@ const Testimonials = () => {
             to client satisfaction is unmatched.
           </p>
         </div>
-        <div className="w-full max-w-[360px] shadow-xl px-6 rounded-xl text-center cursor-pointer   border border-gray-200 py-12 my-5 hover:shadow-2xl transition-all duration-300">
+        <div className=" w-[460]  md:max-w-[360px] shadow-xl px-6 rounded-xl text-center cursor-pointer   border border-gray-200 py-12 my-5 hover:shadow-2xl transition-all duration-300">
           <img className=" mx-auto" src={customerImage2} alt="CustomerImage" />
           <h2 className="pt-2 pb-0.5 text-xl font-semibold">Donald Jackman</h2>
           <h4 className="text-gray-500 text-sm">Marketing Manager</h4>
@@ -52,7 +52,7 @@ const Testimonials = () => {
             to client satisfaction is unmatched.
           </p>
         </div>
-        <div className="w-full max-w-[360px] shadow-xl px-6 rounded-xl text-center cursor-pointer   border border-gray-200 py-12 my-5 hover:shadow-2xl transition-all duration-300">
+        <div className=" w-[460]  md:max-w-[360px] shadow-xl px-6 rounded-xl text-center cursor-pointer   border border-gray-200 py-12 my-5 hover:shadow-2xl transition-all duration-300">
           <img className=" mx-auto" src={customerImage3} alt="CustomerImage" />
           <h2 className="pt-2 pb-0.5 text-xl font-semibold">Donald Jackman</h2>
           <h4 className="text-gray-500 text-sm">Marketing Manager</h4>
