@@ -1,5 +1,3 @@
-import React from "react";
-
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -9,9 +7,6 @@ import Project3 from "../assets/Image/project_img_3.jpg";
 import Project4 from "../assets/Image/project_img_4.jpg";
 import Project5 from "../assets/Image/project_img_5.jpg";
 import Project6 from "../assets/Image/project_img_6.jpg";
-
-
-
 
 const Projects = () => {
   let settings = {
@@ -40,7 +35,11 @@ const Projects = () => {
           <div className=" bg-gray-200 h-[40rem]">
             <div className="flex justify-evenly">
               <div className="w-1/2 ">
-                <img className="w-full h-[40rem] " src={Project1} alt="Project Image" />
+                <img
+                  className="w-full h-[40rem] "
+                  src={Project1}
+                  alt="Project Image"
+                />
               </div>
               <div className="w-1/2 p-10">
                 <div className=" ">
@@ -62,7 +61,11 @@ const Projects = () => {
           <div className=" bg-gray-200 h-[40rem]">
             <div className="flex justify-evenly">
               <div className="w-1/2 ">
-                <img className="w-full h-[40rem]" src={Project2} alt="Project Image" />
+                <img
+                  className="w-full h-[40rem]"
+                  src={Project2}
+                  alt="Project Image"
+                />
               </div>
               <div className="w-1/2 p-10">
                 <div className=" ">
@@ -82,11 +85,14 @@ const Projects = () => {
             </div>
           </div>
 
-
           <div className=" bg-gray-200 h-[40rem]">
             <div className="flex justify-evenly">
               <div className="w-1/2 ">
-                <img className="w-full h-[40rem]" src={Project3} alt="Project Image" />
+                <img
+                  className="w-full h-[40rem]"
+                  src={Project3}
+                  alt="Project Image"
+                />
               </div>
               <div className="w-1/2 p-10">
                 <div className=" ">
@@ -106,12 +112,14 @@ const Projects = () => {
             </div>
           </div>
 
-
-
           <div className=" bg-gray-200 h-[40rem]">
             <div className="flex justify-evenly">
               <div className="w-1/2 ">
-                <img className="w-full h-[40rem]" src={Project4} alt="Project Image" />
+                <img
+                  className="w-full h-[40rem]"
+                  src={Project4}
+                  alt="Project Image"
+                />
               </div>
               <div className="w-1/2 p-10">
                 <div className=" ">
@@ -131,11 +139,14 @@ const Projects = () => {
             </div>
           </div>
 
-
           <div className=" bg-gray-200 h-[40rem]">
             <div className="flex justify-evenly">
               <div className="w-1/2 ">
-                <img className="w-full h-[40rem]" src={Project5} alt="Project Image" />
+                <img
+                  className="w-full h-[40rem]"
+                  src={Project5}
+                  alt="Project Image"
+                />
               </div>
               <div className="w-1/2 p-10">
                 <div className=" ">
@@ -155,11 +166,14 @@ const Projects = () => {
             </div>
           </div>
 
-
           <div className=" bg-gray-200 h-[40rem]">
             <div className="flex justify-evenly">
               <div className="w-1/2 ">
-                <img className="w-full h-[40rem]" src={Project6} alt="Project Image" />
+                <img
+                  className="w-full h-[40rem]"
+                  src={Project6}
+                  alt="Project Image"
+                />
               </div>
               <div className="w-1/2 p-10">
                 <div className=" ">
@@ -178,9 +192,6 @@ const Projects = () => {
               </div>
             </div>
           </div>
-
-
-      
         </Slider>
       </div>
     </div>
