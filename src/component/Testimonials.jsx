@@ -6,11 +6,11 @@ import start from "../assets/Image/star_icon.svg";
 const Testimonials = () => {
   return (
     <div className="container py-10 xl:px-40">
-      <div className="p-10 text-center ">
-        <h2 className="text-4xl font-bold ">
-          Projects
+      <div className="p-4 sm:p-10 text-center ">
+        <h2 className="text-2xl md:text-4xl font-bold ">
+           Customer 
           <span className="underline underline-offset-4 decoration-1 font-light ms-2">
-            Completed
+          Testimonials
           </span>
         </h2>
         <p className="max-w-80 mx-auto text-gray-500 font-semibold mt-3">

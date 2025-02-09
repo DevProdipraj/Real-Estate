@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="bg-[#111827] pt-10 pb-5">
       <div className="container">
-        <div className="flex items-top justify-between">
+        <div className="flex flex-col md:flex-row items-top justify-between">
           <div className="md:w-1/3">
             <a href="#">
               <img className="w-64" src={logo} alt="Brand Icon" />
